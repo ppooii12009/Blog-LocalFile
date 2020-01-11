@@ -87,12 +87,22 @@ pagination_dir: page
 theme: diaspora #next
 
 ## githubEmojis
+## Source: https://github.com/crimx/hexo-filter-github-emojis
 githubEmojis:
   enable: true
   className: github-emoji
   inject: true
   styles:
   customEmojis:
+
+## search
+## Source: https://github.com/theme-next/hexo-generator-search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  content: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
