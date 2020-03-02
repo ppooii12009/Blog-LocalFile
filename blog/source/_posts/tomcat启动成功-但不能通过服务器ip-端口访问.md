@@ -3,6 +3,8 @@ title: tomcat启动成功 但不能通过服务器ip+端口访问
 date: 2020-02-29 14:30:04
 tags: 
 	- Linux那些事儿
+categories: 
+    - tools
 ---
 
 为了安装`nextcloud`，把`centOS`一顿捣鼓之后发现各种版本`php`全都乱了，`httpd`和`nginx`的配置文件也改的面目全非，终于还是向现成的`LNMP`镜像投降了......

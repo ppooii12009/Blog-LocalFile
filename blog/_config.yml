@@ -86,14 +86,25 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: diaspora #next
 
+## Hexo-Prism-Plugin
+## Source: https://github.com/ele828/hexo-prism-plugin
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'default'
+  line_number: false    # default false
+  custom_css:     # optional
+
+
 ## githubEmojis
 ## Source: https://github.com/crimx/hexo-filter-github-emojis
-githubEmojis:
-  enable: true
-  className: github-emoji
-  inject: true
-  styles:
-  customEmojis:
+#githubEmojis:
+#  enable: true
+#  className: github-emoji
+#  unicode: true
+#  styles:
+#    display: inline
+#    vertical-align: middle 
+#  localEmojis:
 
 ## search
 ## Source: https://github.com/theme-next/hexo-generator-search
@@ -110,3 +121,28 @@ deploy:
   type: git
   repo: https://github.com/ppooii12009/ppooii12009.github.io.git
   branch: master
+
+# Markdown-it config
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: false
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: ''
