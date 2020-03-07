@@ -119,7 +119,7 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/ppooii12009/ppooii12009.github.io.git
+  repo: git@175.24.36.50:/home/git/blog.git #https://github.com/ppooii12009/ppooii12009.github.io.git
   branch: master
 
 # Markdown-it config
