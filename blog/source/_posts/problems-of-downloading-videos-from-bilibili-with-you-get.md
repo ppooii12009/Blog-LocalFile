@@ -14,11 +14,11 @@ cover: https://blog-imgbed-1252616544.cos.ap-shanghai.myqcloud.com/blog/problems
 
 但这次时间稍微充裕了一点点，况且不止一个视频，而且用 Android 手机的原生文件系统去找某个在好几层目录下的媒体文件实在是太麻烦了，于是去知乎上 search 了一下，搞到一手黑科技 ***you-get*** 
 
-[传送门 : you-get]: https://github.com/soimort/you-get	"这是一扇神奇的传送门哦~"
+[这是一扇神奇的传送门哦~](https://github.com/soimort/you-get)
 
 如果网络不好或者不会用梯子的同学
 
-[传送门 : 怎样在电脑上下载哔哩哔哩的视频？ - 见长的回答 - 知乎]: https://www.zhihu.com/question/41367609/answer/625032725	"不用梯子的传送门~"
+[不用梯子的传送门~](https://www.zhihu.com/question/41367609/answer/625032725)
 
 就在我兴冲冲安装好 you-get 然后打开命令行准备爽一下的时候，问题出现了
 
